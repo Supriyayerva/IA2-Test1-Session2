@@ -44,3 +44,13 @@ void output(int s)
 {
   printf("sum of composite number is %d\n",s)
 }
+int main()
+{
+  int n,result;
+  n=input_array_size();
+  int a[n];
+  input_array(n,a);
+  result=sum_composite(n,a);
+  output(result);
+  return 0;
+}
